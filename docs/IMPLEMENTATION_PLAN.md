@@ -1,0 +1,12 @@
+# ErdenVaux delivery plan
+
+1. Establish an independent, pinned current Next.js App Router static-export foundation with exact runtime/npm, strict TypeScript, local peer resolution, lint/format tooling and clear ownership. Verify a clean install and production build, then push the foundation.
+2. Build an original asymmetric two-portrait fashion campaign with restrained typography and navigation. Bodoni Moda and Manrope are self-hosted with licenses. Preserve the media brief's eight products, ten variants, dimensions, colors, materials, stock and image identity. Share the first recognizable actual preview for visual review.
+3. Deliver collection URL filters/sorting/empty state, eight prerendered detail routes, variant selection, honest detail crops, keyboard gallery and accurate centimeter-based SVG size comparison.
+4. Deliver a per-provider Zustand bag/wishlist factory, pure stock/merge/pricing functions and a versioned validated persistence adapter. Recover from invalid, unknown-version or unavailable storage without retaining personal details. Keep derived totals out of state.
+5. Compose delivery/details/review/confirmation features with pure validation and an immutable local order snapshot. Clear/reset the shared bag without changing confirmation; no real payment, order or network submission.
+6. Test domain rules, all persisted-field mutations, store isolation, rapid composed URL changes, late native close events, full shopping flows, stock limits, reload/history, keyboard/focus, Axe, reduced motion, 390/768/1440, actual touch-mobile, long valid content and doubled critical text. Compare against clientWidth.
+7. Capture actual desktop/mobile renders and iterate to a 90+ visual verdict. Record actual payloads, asset/font provenance, architecture/data flow, truthful November 2026 README, MIT code license and verification limits.
+8. Push verified milestones and a feature PR, require green CI, normal-merge, publish free GitHub Pages, verify anonymous HTML/assets/fonts/direct routes and shopping journey, set homepage/topics and hand evidence to root for portfolio integration.
+
+Acceptance: a polished usable product, accurate imagery per selected variant, coherent state boundaries, no personal-data persistence or shared SSR customer state, passing local and remote checks, and a working public static demo. Media-owned files are staged only after their owner reports them ready.

@@ -1,0 +1,199 @@
+{
+  "brand": "ErdenVaux",
+  "repo": "erdenvaux-bags-next",
+  "fonts": ["Bodoni Moda", "Manrope"],
+  "palette": ["warm ivory", "ink black", "restrained oxblood"],
+  "status": "Original fictional brand; sample product data and prices; no real commerce",
+  "art_direction": "Fashion editorial: asymmetric paired portrait campaign images, precise fine rules, generous margins. Do not repeat Maison split-copy/photo, Sora giant-center full-bleed wordmark or Atelier centered three-product homepage. Product images on warm grey/ink studio backgrounds with silver hardware; no beige linen repeated from Atelier.",
+  "products": [
+    {
+      "id": "pleat-01",
+      "name": "Pleat 01",
+      "silhouette": "Sculptural folded top-handle",
+      "widthCm": 27,
+      "heightCm": 22,
+      "depthCm": 11,
+      "priceCents": 69000,
+      "variants": [
+        {
+          "id": "ink-grain",
+          "color": "Ink",
+          "hex": "#191919",
+          "material": "Grain leather",
+          "image": "pleat-ink.webp",
+          "stock": 4
+        },
+        {
+          "id": "oxblood-grain",
+          "color": "Oxblood",
+          "hex": "#631f2a",
+          "material": "Grain leather",
+          "image": "pleat-oxblood.webp",
+          "stock": 3
+        }
+      ]
+    },
+    {
+      "id": "meridian-02",
+      "name": "Meridian 02",
+      "silhouette": "Structured elongated shoulder",
+      "widthCm": 31,
+      "heightCm": 15,
+      "depthCm": 8,
+      "priceCents": 54000,
+      "variants": [
+        {
+          "id": "oxblood-smooth",
+          "color": "Oxblood",
+          "hex": "#631f2a",
+          "material": "Smooth leather",
+          "image": "meridian-oxblood.webp",
+          "stock": 5
+        },
+        {
+          "id": "espresso-suede",
+          "color": "Espresso",
+          "hex": "#382923",
+          "material": "Suede",
+          "image": "meridian-espresso-suede.webp",
+          "stock": 0
+        }
+      ]
+    },
+    {
+      "id": "halo-03",
+      "name": "Halo 03",
+      "silhouette": "Round compact satchel",
+      "widthCm": 23,
+      "heightCm": 24,
+      "depthCm": 7,
+      "priceCents": 42000,
+      "variants": [
+        {
+          "id": "ivory-smooth",
+          "color": "Ivory",
+          "hex": "#e6dfcf",
+          "material": "Smooth leather",
+          "image": "halo-ivory.webp",
+          "stock": 6
+        }
+      ]
+    },
+    {
+      "id": "vessel-04",
+      "name": "Vessel 04",
+      "silhouette": "Tall tapered bucket",
+      "widthCm": 22,
+      "heightCm": 28,
+      "depthCm": 16,
+      "priceCents": 49000,
+      "variants": [
+        {
+          "id": "tobacco-suede",
+          "color": "Tobacco",
+          "hex": "#8d5835",
+          "material": "Suede",
+          "image": "vessel-tobacco.webp",
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "fold-05",
+      "name": "Fold 05",
+      "silhouette": "Architectural envelope clutch",
+      "widthCm": 28,
+      "heightCm": 16,
+      "depthCm": 5,
+      "priceCents": 32000,
+      "variants": [
+        {
+          "id": "stone-smooth",
+          "color": "Stone",
+          "hex": "#b7ad9e",
+          "material": "Smooth leather",
+          "image": "fold-stone.webp",
+          "stock": 7
+        }
+      ]
+    },
+    {
+      "id": "passage-06",
+      "name": "Passage 06",
+      "silhouette": "Roomy two-handle weekender",
+      "widthCm": 45,
+      "heightCm": 30,
+      "depthCm": 22,
+      "priceCents": 98000,
+      "variants": [
+        {
+          "id": "ink-grain",
+          "color": "Ink",
+          "hex": "#191919",
+          "material": "Grain leather",
+          "image": "passage-ink.webp",
+          "stock": 3
+        }
+      ]
+    },
+    {
+      "id": "trace-07",
+      "name": "Trace 07",
+      "silhouette": "Slim rectangular crossbody",
+      "widthCm": 24,
+      "heightCm": 16,
+      "depthCm": 6,
+      "priceCents": 36000,
+      "variants": [
+        {
+          "id": "cognac-grain",
+          "color": "Cognac",
+          "hex": "#9a5a30",
+          "material": "Grain leather",
+          "image": "trace-cognac.webp",
+          "stock": 8
+        }
+      ]
+    },
+    {
+      "id": "column-08",
+      "name": "Column 08",
+      "silhouette": "Tall clean vertical tote",
+      "widthCm": 30,
+      "heightCm": 34,
+      "depthCm": 12,
+      "priceCents": 62000,
+      "variants": [
+        {
+          "id": "graphite-smooth",
+          "color": "Graphite",
+          "hex": "#4a4946",
+          "material": "Smooth leather",
+          "image": "column-graphite.webp",
+          "stock": 4
+        }
+      ]
+    }
+  ],
+  "campaigns": [
+    {
+      "file": "campaign-fashion.webp",
+      "request": "Original fully clothed adult fashion editorial carrying Pleat 01 in Ink; use the generated canonical bag as a reference to keep its geometry/color/hardware consistent. Unbranded image, no text/logo."
+    },
+    {
+      "file": "campaign-object.webp",
+      "request": "Original editorial close view of the generated Oxblood Pleat 01 on a dark architectural surface. Keep canonical bag geometry/color consistent; no text/logo."
+    }
+  ],
+  "ownership": {
+    "app": "/root/forma_astro owns all code, git, fonts, CI and docs except media scope",
+    "media": "/root/maison_assets owns only public/images/**, docs/IMAGE_PROVENANCE.md and docs/image-prompts.json; no git operations"
+  },
+  "notes": [
+    "Ten canonical product/variant photographs plus two campaign images. Separate built-in ImageGen call per asset.",
+    "Optimized local WebP full+small variants; real images, never a UI mockup embedded as app.",
+    "Any gallery crop/detail must be labeled as the same photo, not a fabricated new angle.",
+    "Body dimensions are fictional fixtures, exclude handle drop; comparison uses a common accurate cm scale.",
+    "Coordinate any filename/material/color/shape change before changing the matching fixture."
+  ]
+}

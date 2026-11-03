@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+.tools
+package-lock.json
+test-results
+playwright-report
+.omx
+
+docs/image-prompts.json
+docs/IMAGE_PROVENANCE.md
+next-env.d.ts
