@@ -1,0 +1,114 @@
+.filters {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) 1.1fr;
+  gap: 24px;
+  border-block: 1px solid var(--line);
+  padding: 20px 0 25px;
+}
+.filter {
+  min-width: 0;
+}
+.filter label {
+  display: block;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--muted);
+  margin-bottom: 7px;
+}
+.filter select {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #b6ada2;
+  border-radius: 0;
+  background: transparent;
+  padding: 9px 20px 9px 0;
+  min-height: 44px;
+  font-size: 0.73rem;
+}
+.status {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  margin: 25px 0;
+  font-size: 0.67rem;
+  color: var(--muted);
+}
+.reset {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  min-height: 40px;
+  font-size: 0.67rem;
+  padding-inline: 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 48px 22px;
+}
+.empty {
+  padding: 65px 0 90px;
+  text-align: center;
+}
+.empty h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.empty p {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+.empty .reset {
+  font-size: 0.8rem;
+}
+.footnote {
+  padding-top: 40px;
+  font-size: 0.65rem;
+  color: var(--muted);
+  max-width: 600px;
+  line-height: 1.8;
+}
+@media (max-width: 900px) {
+  .filters {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+  }
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 40px 18px;
+  }
+}
+@media (max-width: 700px) {
+  .filters {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px 20px;
+    padding: 16px 0 20px;
+  }
+  .filter:last-child {
+    grid-column: span 2;
+  }
+  .filter select {
+    font-size: 0.78rem;
+  }
+  .status {
+    margin: 17px 0;
+  }
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px 14px;
+  }
+  .empty {
+    padding: 45px 0;
+  }
+  .empty h2 {
+    font-size: 2.3rem;
+  }
+  .empty p {
+    font-size: 0.75rem;
+  }
+  .footnote {
+    font-size: 0.62rem;
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 1,
+  "brand": "ErdenVaux",
+  "createdDate": "2026-11-03",
+  "tool": "Built-in ImageGen",
+  "transparentBackground": false,
+  "processing": {
+    "tool": "Sharp",
+    "quality": 83,
+    "effort": 6,
+    "productFull": [1200, 1500],
+    "productSmall": [640, 800],
+    "campaignFull": [1200, 1800],
+    "campaignSmall": [640, 960],
+    "method": "Proportional contain resize and WebP encoding; no semantic compositing or recoloring outside ImageGen. Full-width normalization includes modest upscaling from the native masters.",
+    "sharpVersion": "0.35.5"
+  },
+  "assets": [
+    {
+      "name": "pleat-ink",
+      "kind": "canonical product",
+      "reference": null,
+      "prompt": "Use case: product-mockup. Asset type: original canonical catalog product photograph for ErdenVaux, a fictional premium bag brand. Create one portrait4:5 studio photograph, no graphic design or UI. Subject: a sculptural folded top-handle handbag, with a broad compact body 27cm wide x22cm high x11cm deep excluding the handle drop, folded side wings and a deep central inverted pleat, one clean angular-arched top handle, refined polished silver handle-base fittings and no exterior logo, in Ink #191919 fine grained leather, on a matte warm pale grey seamless studio floor and backdrop. Photograph one unbranded bag only, completely visible including handles and strap, with generous safe margins. Body proportions should follow the supplied dimensions as closely as possible; dimensions exclude the handle drop and must NOT be printed. Place the bag alone directly on the studio surface, with a subtle natural contact shadow. Straight-on view with a very slight three-quarter turn just enough to show depth; realistic luxury product photography, not illustration. Precise sculptural form, tactile material, restrained cool silver hardware, controlled soft directional studio light, clean neutral color accuracy. No people, no hands, no text, no logo, no monogram, no watermark, no collage. Absolutely no beige linen, stone plinth, flowers, jewelry or decorative accessories. Keep the background and styling distinct from warm rustic boutique photography.",
+      "product": "Pleat 01",
+      "color": "Ink #191919",
+      "material": "fine grained leather",
+      "output": "public/images/pleat-ink.webp",
+      "smallOutput": "public/images/pleat-ink-small.webp",
+      "source": "$CODEX_HOME/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-46d7e6bc-425a-4c30-abbc-bb4c77fced55.png",
+      "sourceDimensions": {
+        "width": 1122,
+        "height": 1402,
+        "bytes": 2161868
+      },
+      "outputs": [
+        {
+          "path": "public/images/pleat-ink.webp",
+          "width": 1200,
+          "height": 1500,
+          "bytes": 89198,
+          "sha256": "56f7ddff10342275fd8ae52d03b23460b8a96b2876e4fc1fb1604c27fad2ed3e"
+        },
+        {
+          "path": "public/images/pleat-ink-small.webp",
+          "width": 640,
+          "height": 800,
+          "bytes": 25684,
+          "sha256": "c4193b629161dbd1be0ff3a24006a28d6567506706a55ed4a3a167183303cc67"
+        }
+      ]
+    },
+    {
+      "name": "meridian-oxblood",
+      "kind": "canonical product",
+      "reference": null,
+      "prompt": "Use case: product-mockup. Asset type: original canonical catalog product photograph for ErdenVaux, a fictional premium bag brand. Create one portrait4:5 studio photograph, no graphic design or UI. Subject: a structured elongated shoulder handbag, its horizontal body31cm wide x15cm high x8cm deep excluding the handle drop, precise rounded rectangular geometry, one slim short adjustable shoulder strap, understated polished silver strap fittings and a tiny discreet silver closure, in Oxblood #631f2a smooth leather, on a matte warm pale grey seamless studio floor and backdrop. Photograph one unbranded bag only, completely visible including handles and strap, with generous safe margins. Body proportions should follow the supplied dimensions as closely as possible; dimensions exclude the handle drop and must NOT be printed. Place the bag alone directly on the studio surface, with a subtle natural contact shadow. Straight-on view with a very slight three-quarter turn just enough to show depth; realistic luxury product photography, not illustration. Precise sculptural form, tactile material, restrained cool silver hardware, controlled soft directional studio light, clean neutral color accuracy. No people, no hands, no text, no logo, no monogram, no watermark, no collage. Absolutely no beige linen, stone plinth, flowers, jewelry or decorative accessories. Keep the background and styling distinct from warm rustic boutique photography.",
+      "product": "Meridian 02",
+      "color": "Oxblood #631f2a",
+      "material": "smooth leather",
+      "output": "public/images/meridian-oxblood.webp",
+      "smallOutput": "public/images/meridian-oxblood-small.webp",
+      "source": "$CODEX_HOME/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-4eb92d1e-4e81-48dc-b34d-ab142361532d.png",
+      "sourceDimensions": {
+        "width": 1122,
+        "height": 1402,
+        "bytes": 1750996
+      },
+      "outputs": [
+        {
+          "path": "public/images/meridian-oxblood.webp",
+          "width": 1200,
+          "height": 1500,
+          "bytes": 33000,
+          "sha256": "669b7a0e6187db8d7b32e4e239d1f6b9e371912922fd4abbdf39c02cf6c3565d"
+        },
+        {
+          "path": "public/images/meridian-oxblood-small.webp",
+          "width": 640,
+          "height": 800,
+          "bytes": 12632,
+          "sha256": "5f759308919b9272e2e9a5d9813b45f2d1749cd16f484290753a3531fd8a49d4"
+        }
+      ]
+    },
+    {
+      "name": "halo-ivory",
+      "kind": "canonical product",
+      "reference": null,
+      "prompt": "Use case: product-mockup. Asset type: original canonical catalog product photograph for ErdenVaux, a fictional premium bag brand. Create one portrait4:5 studio photograph, no graphic design or UI. Subject: a round compact satchel with a near-circular body23cm wide x24cm high x7cm deep excluding the handle drop, a small clean curved top handle and a detachable long slim shoulder strap carefully laid beside it, a minimal small polished silver clasp, in Ivory #e6dfcf smooth leather, on a deep ink charcoal seamless studio floor and backdrop with soft tonal separation. Photograph one unbranded bag only, completely visible including handles and strap, with generous safe margins. Body proportions should follow the supplied dimensions as closely as possible; dimensions exclude the handle drop and must NOT be printed. Place the bag alone directly on the studio surface, with a subtle natural contact shadow. Straight-on view with a very slight three-quarter turn just enough to show depth; realistic luxury product photography, not illustration. Precise sculptural form, tactile material, restrained cool silver hardware, controlled soft directional studio light, clean neutral color accuracy. No people, no hands, no text, no logo, no monogram, no watermark, no collage. Absolutely no beige linen, stone plinth, flowers, jewelry or decorative accessories. Keep the background and styling distinct from warm rustic boutique photography.",
+      "product": "Halo 03",
+      "color": "Ivory #e6dfcf",
+      "material": "smooth leather",
+      "output": "public/images/halo-ivory.webp",
+      "smallOutput": "public/images/halo-ivory-small.webp",
+      "source": "$CODEX_HOME/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-3b676d5e-26e3-4c40-86de-f7d198f46239.png",
+      "sourceDimensions": {
+        "width": 1122,
+        "height": 1402,
+        "bytes": 1848629
+      },
+      "outputs": [
+        {
+          "path": "public/images/halo-ivory.webp",
+          "width": 1200,
+          "height": 1500,
+          "bytes": 38402,
+          "sha256": "78596de8ee3cba9e9a7bfd502b90b49b31d5d1503329c207546df9cfd02660b5"
+        },
+        {
+          "path": "public/images/halo-ivory-small.webp",
+          "width": 640,
+          "height": 800,
+          "bytes": 16382,
+          "sha256": "e6cd461baf78a6206907615d3f17ada278757591126d357a0b6b2c2f9e4ebaaf"
+        }
+      ]
+    },
+    {
+      "name": "vessel-tobacco",
+      "kind": "canonical product",
+      "reference": null,
+      "prompt": "Use case: product-mockup. Asset type: original canonical catalog product photograph for ErdenVaux, a fictional premium bag brand. Create one portrait4:5 studio photograph, no graphic design or UI. Subject: a tall tapered bucket bag, its upright body22cm wide x28cm high x16cm deep excluding the handle drop, softly gathered open top, clean tapered cylindrical form and a slim curved shoulder handle with minimal polished silver attachment fittings, in Tobacco #8d5835 soft tactile suede, on a matte warm pale grey seamless studio floor and backdrop. Photograph one unbranded bag only, completely visible including handles and strap, with generous safe margins. Body proportions should follow the supplied dimensions as closely as possible; dimensions exclude the handle drop and must NOT be printed. Place the bag alone directly on the studio surface, with a subtle natural contact shadow. Straight-on view with a very slight three-quarter turn just enough to show depth; realistic luxury product photography, not illustration. Precise sculptural form, tactile material, restrained cool silver hardware, controlled soft directional studio light, clean neutral color accuracy. No people, no hands, no text, no logo, no monogram, no watermark, no collage. Absolutely no beige linen, stone plinth, flowers, jewelry or decorative accessories. Keep the background and styling distinct from warm rustic boutique photography.",
+      "product": "Vessel 04",
+      "color": "Tobacco #8d5835",
+      "material": "soft tactile suede",
+      "output": "public/images/vessel-tobacco.webp",
+      "smallOutput": "public/images/vessel-tobacco-small.webp",
+      "source": "$CODEX_HOME/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-595a906d-b51f-4db3-aaf3-b3584fa82449.png",
+      "sourceDimensions": {
+        "width": 1122,
+        "height": 1402,
+        "bytes": 1967712
+      },
+      "outputs": [
+        {
+          "path": "public/images/vessel-tobacco.webp",
+          "width": 1200,
+          "height": 1500,
+          "bytes": 67420,
+          "sha256": "d76db1064d8edb213254513815fb1b14fdd274d2944708f8030c146d6f1a9eb7"
+        },
+        {
+          "path": "public/images/vessel-tobacco-small.webp",
+          "width": 640,
+          "height": 800,
+          "bytes": 18924,
+          "sha256": "17d57368b19dca53af29786c8108929a7452ecd3cda53871f86aceeef9ec176e"
+        }
+      ]
+    },
+    {
+      "name": "fold-stone",
+      "kind": "canonical product",
+      "reference": null,
+      "prompt": "Use case: product-mockup. Asset type: original canonical catalog product photograph for ErdenVaux, a fictional premium bag brand. Create one portrait4:5 studio photograph, no graphic design or UI. Subject: an architectural envelope clutch with a horizontal body28cm wide x16cm high x5cm deep, a crisp asymmetrical folded flap and a single tiny polished silver geometric closure, no handle or shoulder strap, in Stone #b7ad9e smooth leather, on a deep ink charcoal seamless studio floor and backdrop with a subtle side shadow. Photograph one unbranded bag only, completely visible including handles and strap, with generous safe margins. Body proportions should follow the supplied dimensions as closely as possible; dimensions exclude the handle drop and must NOT be printed. Place the bag alone directly on the studio surface, with a subtle natural contact shadow. Straight-on view with a very slight three-quarter turn just enough to show depth; realistic luxury product photography, not illustration. Precise sculptural form, tactile material, restrained cool silver hardware, controlled soft directional studio light, clean neutral color accuracy. No people, no hands, no text, no logo, no monogram, no watermark, no collage. Absolutely no beige linen, stone plinth, flowers, jewelry or decorative accessories. Keep the background and styling distinct from warm rustic boutique photography.",
+      "product": "Fold 05",
+      "color": "Stone #b7ad9e",
+      "material": "smooth leather",
+      "output": "public/images/fold-stone.webp",
+      "smallOutput": "public/images/fold-stone-small.webp",
+      "source": "$CODEX_HOME/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-1c4a22bb-888c-4a69-b821-d27650174847.png",
+      "sourceDimensions": {
+        "width": 1122,
+        "height": 1402,
+        "bytes": 1974673
+      },
+      "outputs": [
+        {
+          "path": "public/images/fold-stone.webp",
+          "width": 1200,
+          "height": 1500,
+          "bytes": 37362,
+          "sha256": "98d7b212a099a580c36274bba0119a09aa21377328a0568e417b7013b2ea8bb3"
+        },
+        {
+          "path": "public/images/fold-stone-small.webp",
+          "width": 640,
+          "height": 800,
+          "bytes": 9078,
+          "sha256": "737697d557369e8bef91347cf739d4cd79b27830a37cab150c9dc9734c32754a"
+        }
+      ]
+    },
+    {
+      "name": "passage-ink",
+      "kind": "canonical product",
+      "reference": null,
+      "prompt": "Use case: product-mockup. Asset type: original canonical catalog product photograph for ErdenVaux, a fictional premium bag brand. Create one portrait4:5 studio photograph, no graphic design or UI. Subject: a roomy two-handle weekender, its broad body45cm wide x30cm high x22cm deep excluding the handle drop, sculptural softly squared duffel shape with two strong rolled top handles, a refined central zipper and restrained polished silver hardware, in Ink #191919 fine grained leather, on a matte warm pale grey seamless studio floor and backdrop. Photograph one unbranded bag only, completely visible including handles and strap, with generous safe margins. Body proportions should follow the supplied dimensions as closely as possible; dimensions exclude the handle drop and must NOT be printed. Place the bag alone directly on the studio surface, with a subtle natural contact shadow. Straight-on view with a very slight three-quarter turn just enough to show depth; realistic luxury product photography, not illustration. Precise sculptural form, tactile material, restrained cool silver hardware, controlled soft directional studio light, clean neutral color accuracy. No people, no hands, no text, no logo, no monogram, no watermark, no collage. Absolutely no beige linen, stone plinth, flowers, jewelry or decorative accessories. Keep the background and styling distinct from warm rustic boutique photography.",
+      "product": "Passage 06",
+      "color": "Ink #191919",
+      "material": "fine grained leather",
+      "output": "public/images/passage-ink.webp",
+      "smallOutput": "public/images/passage-ink-small.webp",
+      "source": "$CODEX_HOME/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-dfc10262-ad2e-4aaa-8e5d-dd1785e333b8.png",
+      "sourceDimensions": {
+        "width": 1122,
+        "height": 1402,
+        "bytes": 2044846
+      },
+      "outputs": [
+        {
+          "path": "public/images/passage-ink.webp",
+          "width": 1200,
+          "height": 1500,
+          "bytes": 76522,
+          "sha256": "3ac5f5fe53d351c9adaffd3be1497d9807ca6ddad450bd3b2f7e2b563ef34a06"
+        },
+        {
+          "path": "public/images/passage-ink-small.webp",
+          "width": 640,
+          "height": 800,
+          "bytes": 21814,
+          "sha256": "d285511c4abf4e72e73eabe88fd2602645cfae9ea788bdb732a271d15aacd530"
+        }
+      ]
+    },
+    {
+      "name": "trace-cognac",
+      "kind": "canonical product",
+      "reference": null,
+      "prompt": "Use case: product-mockup. Asset type: original canonical catalog product photograph for ErdenVaux, a fictional premium bag brand. Create one portrait4:5 studio photograph, no graphic design or UI. Subject: a slim rectangular crossbody with body24cm wide x16cm high x6cm deep, precise clean front flap, a narrow adjustable long shoulder strap laid in a neat loose curve beside the bag, restrained small polished silver fittings, in Cognac #9a5a30 fine grained leather, on a deep ink charcoal seamless studio floor and backdrop with soft tonal separation. Photograph one unbranded bag only, completely visible including handles and strap, with generous safe margins. Body proportions should follow the supplied dimensions as closely as possible; dimensions exclude the handle drop and must NOT be printed. Place the bag alone directly on the studio surface, with a subtle natural contact shadow. Straight-on view with a very slight three-quarter turn just enough to show depth; realistic luxury product photography, not illustration. Precise sculptural form, tactile material, restrained cool silver hardware, controlled soft directional studio light, clean neutral color accuracy. No people, no hands, no text, no logo, no monogram, no watermark, no collage. Absolutely no beige linen, stone plinth, flowers, jewelry or decorative accessories. Keep the background and styling distinct from warm rustic boutique photography.",
+      "product": "Trace 07",
+      "color": "Cognac #9a5a30",
+      "material": "fine grained leather",
+      "output": "public/images/trace-cognac.webp",
+      "smallOutput": "public/images/trace-cognac-small.webp",
+      "source": "$CODEX_HOME/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-f7d287ae-b1f0-4447-a535-fa1d6a865652.png",
+      "sourceDimensions": {
+        "width": 1122,
+        "height": 1402,
+        "bytes": 1976013
+      },
+      "outputs": [
+        {
+          "path": "public/images/trace-cognac.webp",
+          "width": 1200,
+          "height": 1500,
+          "bytes": 77148,
+          "sha256": "52da62948c38501b40cc541aafb91e78a9fcc9ce9f5266dc304c84624a8506a9"
+        },
+        {
+          "path": "public/images/trace-cognac-small.webp",
+          "width": 640,
+          "height": 800,
+          "bytes": 24308,
+          "sha256": "f17e8f784e89446c2da8d0f1bf8529b03e7ca23af2eba486c6f3afb99487fc10"
+        }
+      ]
+    },
+    {
+      "name": "column-graphite",
+      "kind": "canonical product",
+      "reference": null,
+      "prompt": "Use case: product-mockup. Asset type: original canonical catalog product photograph for ErdenVaux, a fictional premium bag brand. Create one portrait4:5 studio photograph, no graphic design or UI. Subject: a tall clean vertical tote, its upright body30cm wide x34cm high x12cm deep excluding the handle drop, straight architectural side panels, slightly inset side gussets, two long clean flat handles and very minimal polished silver attachment details, in Graphite #4a4946 smooth leather, on a matte warm pale grey seamless studio floor and backdrop. Photograph one unbranded bag only, completely visible including handles and strap, with generous safe margins. Body proportions should follow the supplied dimensions as closely as possible; dimensions exclude the handle drop and must NOT be printed. Place the bag alone directly on the studio surface, with a subtle natural contact shadow. Straight-on view with a very slight three-quarter turn just enough to show depth; realistic luxury product photography, not illustration. Precise sculptural form, tactile material, restrained cool silver hardware, controlled soft directional studio light, clean neutral color accuracy. No people, no hands, no text, no logo, no monogram, no watermark, no collage. Absolutely no beige linen, stone plinth, flowers, jewelry or decorative accessories. Keep the background and styling distinct from warm rustic boutique photography.",
+      "product": "Column 08",
+      "color": "Graphite #4a4946",
+      "material": "smooth leather",
+      "output": "public/images/column-graphite.webp",
+      "smallOutput": "public/images/column-graphite-small.webp",
+      "source": "$CODEX_HOME/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-03256c65-4484-4655-92d4-fee0e59114fc.png",
+      "sourceDimensions": {
+        "width": 1122,
+        "height": 1402,
+        "bytes": 1794280
+      },
+      "outputs": [
+        {
+          "path": "public/images/column-graphite.webp",
+          "width": 1200,
+          "height": 1500,
+          "bytes": 31438,
+          "sha256": "37c12b803f5b16968058d12be059e4aa305b743ee3ba2197fa86e98a55c47f43"
+        },
+        {
+          "path": "public/images/column-graphite-small.webp",
+          "width": 640,
+          "height": 800,
+          "bytes": 10076,
+          "sha256": "c1f7bc375ea55084f16f37c7528dc5524a4659c426f97d68f06b98e01bb7fbdc"
+        }
+      ]
+    },
+    {
+      "name": "pleat-oxblood",
+      "kind": "variant edit",
+      "reference": "pleat-ink",
+      "prompt": "Use case: precise-object-edit. Input image1 is the canonical Pleat01 Ink product photograph, the edit target. Change ONLY the bag leather color from Ink to a rich restrained Oxblood #631f2a. Preserve exactly the same handbag identity, sculptural central inverted pleat, folded side wings, body proportions27cm wide x22cm high x11cm deep excluding handle drop, grain texture, seams, arch handle shape, polished silver handle-base fittings, camera position, composition, contact shadow, warm pale grey studio background and lighting. Keep the bag fully visible with the same margins. One portrait4:5 studio photograph. Do not change it into another bag. No text, logos, watermark, people or extra objects.",
+      "output": "public/images/pleat-oxblood.webp",
+      "smallOutput": "public/images/pleat-oxblood-small.webp",
+      "source": "$CODEX_HOME/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-302342e7-3749-4a04-9540-fe1f1c4028b2.png",
+      "sourceDimensions": {
+        "width": 1122,
+        "height": 1402,
+        "bytes": 2062047
+      },
+      "outputs": [
+        {
+          "path": "public/images/pleat-oxblood.webp",
+          "width": 1200,
+          "height": 1500,
+          "bytes": 87486,
+          "sha256": "9684e686df3f4241a8a350913ace03074b4d70b11a664871c4563523cf9b6f9b"
+        },
+        {
+          "path": "public/images/pleat-oxblood-small.webp",
+          "width": 640,
+          "height": 800,
+          "bytes": 27906,
+          "sha256": "d96fcbdecfc58b505bd8f374e51b4374667ce24fb459e70457b6b12176a64aba"
+        }
+      ]
+    },
+    {
+      "name": "meridian-espresso-suede",
+      "kind": "variant edit",
+      "reference": "meridian-oxblood",
+      "prompt": "Use case: precise-object-edit. Input image1 is the canonical Meridian02 Oxblood smooth-leather product photograph, the edit target. Change ONLY the bag's leather color and surface material to Espresso #382923 matte suede with a clearly visible fine soft directional nap. Preserve exactly the same elongated body silhouette31cm wide x15cm high x8cm deep excluding handle drop, proportions, short adjustable shoulder strap, buckle position, seams, closure, polished silver hardware, view, scale, lighting and warm pale grey studio background. Keep the whole bag and strap in frame with identical margins. One portrait4:5 studio photograph. No text, logos, watermark, people or extra objects.",
+      "output": "public/images/meridian-espresso-suede.webp",
+      "smallOutput": "public/images/meridian-espresso-suede-small.webp",
+      "source": "$CODEX_HOME/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-0d0734e7-9bb7-4f1f-8eda-a596eab456e5.png",
+      "sourceDimensions": {
+        "width": 1122,
+        "height": 1402,
+        "bytes": 1770177
+      },
+      "outputs": [
+        {
+          "path": "public/images/meridian-espresso-suede.webp",
+          "width": 1200,
+          "height": 1500,
+          "bytes": 39124,
+          "sha256": "43d19f54f6528fa678adf3a5fb086c874ec617d3c8d2161c7fc07b45f68229fb"
+        },
+        {
+          "path": "public/images/meridian-espresso-suede-small.webp",
+          "width": 640,
+          "height": 800,
+          "bytes": 12942,
+          "sha256": "ea2a762b6ef165a62826fc593f114d6f04a68261c448b9a8c23441acc2b7a5b0"
+        }
+      ]
+    },
+    {
+      "name": "campaign-fashion",
+      "kind": "referenced campaign",
+      "reference": "pleat-ink",
+      "prompt": "Use case: photorealistic-natural. Asset type: original portrait2:3 luxury fashion editorial photograph for the fictional brand ErdenVaux, with no typography. Input image1 is the exact canonical handbag identity reference; use its bag geometry/material/color/hardware, not its studio composition. Create a new natural fashion scene with an original non-famous adult female model around30, fully clothed in a beautiful unbranded warm ivory long tailored coat over an ink high-neck top and dark wide-leg trousers. A quiet architectural grey gallery setting, crisp directional daylight and deep soft shadows. Knees-up editorial portrait, thoughtful off-camera gaze, realistic natural skin and hands, refined contemporary fashion magazine photography. The model holds the exact referenced Ink Pleat01 bag naturally by its handle beside her hip, with the complete bag clearly visible against the ivory coat. Preserve the bag's central inverted pleat, folded wings, grain leather Ink color, arch handle and two rectangular polished silver handle-base fittings. Its body is27cm wide x22cm high x11cm deep excluding handle drop; keep a believable small-handbag scale relative to an adult. Do not turn it into an oversized tote or add a shoulder strap. Bag and model should feel photographed together, no floating object or impossible grip. Controlled warm-grey/ink/ivory palette, generous editorial framing, no beige linen or rustic stone-plinth setup. No text, brand logos, monograms, watermarks, inset panels or UI.",
+      "output": "public/images/campaign-fashion.webp",
+      "smallOutput": "public/images/campaign-fashion-small.webp",
+      "source": "$CODEX_HOME/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-6fcbc257-2b7a-4311-90ea-0c684c995659.png",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2182835
+      },
+      "outputs": [
+        {
+          "path": "public/images/campaign-fashion.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 86730,
+          "sha256": "0817261efb35cbdcdbc01137f0d2d052dcc36fdb074e32009251bf8a26638781"
+        },
+        {
+          "path": "public/images/campaign-fashion-small.webp",
+          "width": 640,
+          "height": 960,
+          "bytes": 29842,
+          "sha256": "48a0604c72db83a5a3328c27282532a9021d430e134a7b6e60b9567464352b99"
+        }
+      ]
+    },
+    {
+      "name": "campaign-object",
+      "kind": "referenced campaign",
+      "reference": "pleat-oxblood",
+      "prompt": "Use case: photorealistic-natural. Asset type: original portrait2:3 object-focused luxury fashion editorial photograph for the fictional brand ErdenVaux, with no typography. Input image1 is the canonical Oxblood Pleat01 handbag identity reference. Create a new close editorial view of exactly this bag on a dark charcoal architectural surface, with an ink-black recessed wall and one sharply lit grey concrete plane behind it. Preserve the bag's rich restrained Oxblood grain leather, deep central inverted pleat, folded side wings, compact body proportions27cm wide x22cm high x11cm deep excluding the handle drop, arched top handle, and the two rectangular polished silver handle-base fittings. The entire bag and handle must remain inside the portrait frame, with generous breathing space above and below. A slightly lower camera than the catalog image, dramatic soft side light that reveals grain and folded structure, cool silver highlights, quiet architectural shadow, sculptural fashion magazine still-life realism. The bag is the only object. This is not the original studio photograph; make a distinctive darker campaign composition while retaining the exact bag identity. No model, no hands, no text, logos, monograms, watermark, decorative props, rustic beige linen, pale stone plinth, collage or UI.",
+      "output": "public/images/campaign-object.webp",
+      "smallOutput": "public/images/campaign-object-small.webp",
+      "source": "$CODEX_HOME/generated_images/01a19ef2-c920-7313-805d-9889a27cfb6a/exec-3e4b6119-8d6a-45c2-ad31-40e82fe4bef0.png",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2303373
+      },
+      "outputs": [
+        {
+          "path": "public/images/campaign-object.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 138106,
+          "sha256": "60fd292cad37e555ebb9ad5a52ec8e2e82261ebaf1efdda0049ff6b95a1ae8c3"
+        },
+        {
+          "path": "public/images/campaign-object-small.webp",
+          "width": 640,
+          "height": 960,
+          "bytes": 44908,
+          "sha256": "97663f40a8a100f8b80aa81b23b5f2305417a199a754093f8595b2615f5889b9"
+        }
+      ]
+    }
+  ],
+  "totalOutputBytes": 1056432
+}

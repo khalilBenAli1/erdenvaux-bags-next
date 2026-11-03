@@ -1,0 +1,116 @@
+.card {
+  min-width: 0;
+}
+.image {
+  position: relative;
+  background: #d4cfca;
+}
+.image picture,
+.image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+}
+.image > a {
+  display: block;
+  overflow: hidden;
+}
+.image img {
+  transition: transform 0.4s;
+}
+.image > a:hover img {
+  transform: scale(1.025);
+}
+.save {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #f7f4efcc;
+}
+.save:hover {
+  background: var(--paper);
+}
+.save[aria-pressed='true'] {
+  color: var(--wine);
+}
+.save svg {
+  width: 19px;
+  height: 19px;
+}
+.caption {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: flex-start;
+  margin-top: 17px;
+}
+.caption h3 {
+  font: 500 0.86rem/1.5 var(--font-ui);
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+}
+.caption p {
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+.meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--muted);
+  margin-top: 6px;
+  font-size: 0.67rem;
+  line-height: 1.6;
+}
+.meta span {
+  white-space: nowrap;
+}
+.unavailable {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: var(--paper);
+  font-size: 0.62rem;
+  padding: 7px 9px;
+  letter-spacing: 0.04em;
+}
+@media (max-width: 700px) {
+  .save {
+    top: 4px;
+    right: 4px;
+    width: 40px;
+    height: 40px;
+  }
+  .caption {
+    display: block;
+    margin-top: 12px;
+  }
+  .caption h3 {
+    font-size: 0.76rem;
+  }
+  .caption p {
+    font-size: 0.76rem;
+    margin-top: 3px;
+  }
+  .meta {
+    display: block;
+    font-size: 0.62rem;
+  }
+  .meta span {
+    display: block;
+    margin-top: 3px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .image img {
+    transition: none;
+  }
+}
