@@ -76,7 +76,7 @@ export function BagDrawing({ product, x }: { product: Product; x: number }) {
         fill="var(--ink)"
         fontSize="12"
       >
-        {w} cm
+        {`${w} cm`}
       </text>
       <text
         x={x - 26}
@@ -86,7 +86,7 @@ export function BagDrawing({ product, x }: { product: Product; x: number }) {
         fontSize="11"
         transform={`rotate(-90 ${x - 26} ${y + (h * comparisonScale) / 2})`}
       >
-        {h} cm
+        {`${h} cm`}
       </text>
     </g>
   );

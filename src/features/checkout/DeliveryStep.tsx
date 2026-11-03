@@ -25,9 +25,7 @@ export function DeliveryStep({
       >
         At your own pace.
       </h2>
-      <p className={styles.intro}>
-        Choose a sample delivery option. Nothing will be shipped or charged.
-      </p>
+      <p className={styles.intro}>Select your preferred delivery option.</p>
       <fieldset className={styles.delivery}>
         <legend className="eyebrow">Delivery options</legend>
         {deliveryOptions.map((option) => (

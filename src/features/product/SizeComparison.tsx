@@ -52,14 +52,12 @@ export function SizeComparison() {
           role="img"
           aria-labelledby={`${id}-title ${id}-desc`}
         >
-          <title id={`${id}-title`}>
-            {a.name} and {b.name} at a common centimeter scale
-          </title>
-          <desc id={`${id}-desc`}>
-            {a.name} body: {a.widthCm} centimeters wide and {a.heightCm}{' '}
-            centimeters high. {b.name} body: {b.widthCm} centimeters wide and{' '}
-            {b.heightCm} centimeters high. Body height excludes handles.
-          </desc>
+          <title
+            id={`${id}-title`}
+          >{`${a.name} and ${b.name} at a shared centimeter scale`}</title>
+          <desc
+            id={`${id}-desc`}
+          >{`${a.name} body: ${a.widthCm} centimeters wide and ${a.heightCm} centimeters high. ${b.name} body: ${b.widthCm} centimeters wide and ${b.heightCm} centimeters high. Body height excludes handles.`}</desc>
           <path d="M30 230H600" stroke="var(--line)" strokeWidth="1" />
           <BagDrawing product={a} x={65} />
           <BagDrawing product={b} x={365} />
@@ -80,9 +78,7 @@ export function SizeComparison() {
           </text>
         </svg>
         <figcaption className={styles.legend}>
-          Shared scale / centimetres
-          <br />
-          Illustrated body dimensions exclude handles and straps.
+          Shared scale using sample body dimensions; handles excluded.
         </figcaption>
       </figure>
       <div className={styles.details}>
@@ -104,11 +100,6 @@ export function SizeComparison() {
           </article>
         ))}
       </div>
-      <p className={styles.explanation}>
-        These simplified illustrations use one common scale and the collection’s
-        fictional body measurements. They compare proportions; they do not
-        predict exact carrying capacity or fit.
-      </p>
     </div>
   );
 }

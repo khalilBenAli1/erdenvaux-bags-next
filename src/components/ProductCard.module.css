@@ -51,7 +51,7 @@
   align-items: flex-start;
   margin-top: 17px;
 }
-.caption h3 {
+.caption :is(h2, h3) {
   font: 500 0.86rem/1.5 var(--font-ui);
   letter-spacing: 0.035em;
   text-transform: uppercase;
@@ -93,7 +93,7 @@
     display: block;
     margin-top: 12px;
   }
-  .caption h3 {
+  .caption :is(h2, h3) {
     font-size: 0.76rem;
   }
   .caption p {

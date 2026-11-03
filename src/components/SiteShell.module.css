@@ -204,3 +204,8 @@
     margin-top: 12px;
   }
 }
+
+.footer a:focus-visible,
+.footer button:focus-visible {
+  outline-color: var(--paper);
+}

@@ -35,6 +35,7 @@ export function Wishlist() {
         if (!product || !variant) throw new Error('Unknown saved selection');
         return (
           <ProductCard
+            headingLevel={2}
             key={selectionKey(selection)}
             product={product}
             variant={variant}

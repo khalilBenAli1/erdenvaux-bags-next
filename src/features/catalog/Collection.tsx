@@ -103,6 +103,7 @@ export function Collection() {
             );
             return (
               <ProductCard
+                headingLevel={2}
                 key={product.id}
                 product={product}
                 {...(variant ? { variant } : {})}

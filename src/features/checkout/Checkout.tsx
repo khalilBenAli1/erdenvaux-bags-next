@@ -18,12 +18,12 @@ export function Checkout() {
   if (flow.status === 'loading')
     return (
       <section className={styles.empty}>
-        <p className="eyebrow">Local demonstration</p>
+        <p className="eyebrow">Demo checkout</p>
         <h1>Demo checkout.</h1>
         <p role="status">Preparing your selection…</p>
         <noscript>
           <p>
-            This local shopping demonstration requires JavaScript. You can still
+            The shopping tools in this demo require JavaScript. You can still
             browse the collection and product details.
           </p>
         </noscript>
@@ -39,7 +39,7 @@ export function Checkout() {
           <br />
           in your bag.
         </h1>
-        <p>Choose a piece before starting the local checkout demonstration.</p>
+        <p>Choose a piece before starting the demo checkout.</p>
         <Link className="text-link" href="/collection/">
           Explore the collection <Icon name="arrow" />
         </Link>
@@ -52,12 +52,11 @@ export function Checkout() {
   return (
     <>
       <section className={styles.top}>
-        <p className="eyebrow">Local demonstration / No payment</p>
+        <p className="eyebrow">Demo checkout / No payment</p>
         <h1>The final details.</h1>
         <p>
-          Choose a sample delivery option and use fictional contact details.
+          Choose a delivery option, then use sample contact details.
           <br />
-          Nothing will be charged, sent or shipped.
         </p>
       </section>
       <div className={styles.layout}>

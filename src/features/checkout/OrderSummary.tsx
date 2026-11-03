@@ -35,10 +35,7 @@ export function OrderSummary({
         ))}
       </div>
       <PriceBreakdown totals={totals} />
-      <p className={styles.summaryNote}>
-        This is a local demonstration. No real order is created, and no payment
-        information is requested.
-      </p>
+      <p className={styles.summaryNote}>Illustrative collection prices.</p>
     </aside>
   );
 }

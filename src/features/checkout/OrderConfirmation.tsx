@@ -18,21 +18,20 @@ export function OrderConfirmation({ order }: { order: Confirmation }) {
       aria-labelledby="confirmation-heading"
     >
       <div className={styles.confirmedTop}>
-        <p className="eyebrow">Demonstration confirmed</p>
+        <p className="eyebrow">Demo confirmed</p>
         <h1 id="confirmation-heading" tabIndex={-1} ref={heading}>
           Your edit is confirmed.
         </h1>
         <p>
-          Thank you, {order.customer.fullName}. This local demonstration is
-          complete. No order was placed, no payment was made and no message was
-          sent.
+          Thank you, {order.customer.fullName}. Your demo checkout is complete.
+          No order was placed and nothing was charged.
         </p>
       </div>
       <div className={styles.confirmedGrid}>
         <div className={styles.confirmedDetails}>
           <p className={styles.reference}>{order.reference}</p>
           <div>
-            <h2>Sample delivery</h2>
+            <h2>Delivery</h2>
             <p>
               {order.delivery.label}
               <br />
@@ -54,7 +53,7 @@ export function OrderConfirmation({ order }: { order: Confirmation }) {
               dateStyle: 'long',
               timeZone: 'UTC',
             }).format(new Date(order.createdAt))}{' '}
-            / Local preview
+            / Demo preview
           </p>
         </div>
         <div className={styles.summary} aria-label="Confirmed selection">
@@ -84,9 +83,7 @@ export function OrderConfirmation({ order }: { order: Confirmation }) {
           </div>
           <PriceBreakdown totals={order.totals} />
           <p className={styles.summaryNote}>
-            This confirmation is a fixed snapshot of your demonstration.
-            Changing or resetting the bag does not change it. Reloading or
-            leaving this page clears the local preview.
+            This preview clears when you leave or reload the page.
           </p>
         </div>
       </div>

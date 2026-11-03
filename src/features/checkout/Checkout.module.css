@@ -263,6 +263,7 @@
   border-bottom: 1px solid var(--line);
 }
 .confirmedTop h1 {
+  overflow-wrap: anywhere;
   font-size: 4.7rem;
   max-width: 700px;
   margin: 25px 0;

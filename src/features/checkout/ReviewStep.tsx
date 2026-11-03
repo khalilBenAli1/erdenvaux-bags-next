@@ -32,8 +32,7 @@ export function ReviewStep({
         One last look.
       </h2>
       <p className={styles.intro}>
-        Review the sample details and the complete illustrative total before
-        confirming this local demonstration.
+        Review your selection, delivery and sample details.
       </p>
       <div className={styles.reviewHeading}>
         <h3>Delivery</h3>
@@ -63,15 +62,14 @@ export function ReviewStep({
         <p>{customer.country}</p>
       </div>
       <p className={styles.confirmationNote}>
-        Confirming clears the bag and creates a local preview on this page.
-        Nothing is charged, transmitted or shipped.
+        This confirms a demo only. No payment or order is sent.
       </p>
       <div className={styles.actions}>
         <button type="button" className={styles.back} onClick={onEditDetails}>
           Back to details
         </button>
         <button type="button" className="button" onClick={onConfirm}>
-          Confirm demonstration <Icon name="arrow" />
+          Confirm demo <Icon name="arrow" />
         </button>
       </div>
     </section>

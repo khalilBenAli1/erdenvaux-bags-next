@@ -8,7 +8,9 @@ test('discover a piece, choose real variants, merge quantities within stock and 
   const variants = page.getByRole('group', {
     name: 'Choose colour and material',
   });
-  await variants.getByRole('button', { name: /Oxblood/ }).click();
+  const oxbloodChoice = variants.getByRole('button', { name: /Oxblood/ });
+  if (test.info().project.use.hasTouch) await oxbloodChoice.tap();
+  else await oxbloodChoice.click();
   await expect(page).toHaveURL(/variant=oxblood-grain/);
   await expect(
     page
@@ -18,7 +20,12 @@ test('discover a piece, choose real variants, merge quantities within stock and 
   await page
     .getByRole('button', { name: 'Increase Pleat 01 selected', exact: true })
     .click();
-  await page.getByRole('button', { name: 'Add to bag', exact: true }).click();
+  const addButton = page.getByRole('button', {
+    name: 'Add to bag',
+    exact: true,
+  });
+  if (test.info().project.use.hasTouch) await addButton.tap();
+  else await addButton.click();
   await expect(
     page.getByRole('status').filter({ hasText: '2 Pleat 01 in Oxblood added' }),
   ).toBeVisible();
@@ -202,6 +209,14 @@ test('delivery, validated details and local confirmation retain a fixed snapshot
   await page.getByLabel('City').fill('Milan');
   await page.getByLabel('Postal code').fill('20121');
   await page.getByLabel('Country').selectOption('Italy');
+  await page.getByLabel('Email address').fill('alex<smith>@example.com');
+  await page.getByRole('button', { name: 'Review your selection' }).click();
+  await expect(page.getByLabel('Email address')).toBeFocused();
+  await expect(page.getByLabel('Email address')).toHaveAttribute(
+    'aria-invalid',
+    'true',
+  );
+  await page.getByLabel('Email address').fill('alex@example.com');
   await page.getByRole('button', { name: 'Review your selection' }).click();
   await expect(
     page.getByRole('heading', { name: 'One last look.' }),
@@ -214,7 +229,7 @@ test('delivery, validated details and local confirmation retain a fixed snapshot
       body: request.postData(),
     }),
   );
-  await page.getByRole('button', { name: 'Confirm demonstration' }).click();
+  await page.getByRole('button', { name: 'Confirm demo' }).click();
   await expect(
     page.getByRole('heading', { name: 'Your edit is confirmed.' }),
   ).toBeFocused();

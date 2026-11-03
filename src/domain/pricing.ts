@@ -4,13 +4,13 @@ export const deliveryOptions = [
   {
     id: 'standard',
     label: 'Standard delivery',
-    description: '3–5 business days · sample option',
+    description: '3–5 business days',
     priceCents: 800,
   },
   {
     id: 'express',
     label: 'Express delivery',
-    description: '1–2 business days · sample option',
+    description: '1–2 business days',
     priceCents: 1800,
   },
 ] as const;

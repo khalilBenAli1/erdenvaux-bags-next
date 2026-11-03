@@ -65,9 +65,8 @@ export function BagDrawer({
             <span>{formatMoney(totals.subtotalCents)}</span>
           </div>
           <p>
-            Choose a sample delivery option at checkout.
+            Choose delivery at demo checkout.
             <br />
-            This is a local demonstration. No purchase is made.
           </p>
           <div className={styles.buttons}>
             <Link className="button" href="/checkout/" onClick={onClose}>

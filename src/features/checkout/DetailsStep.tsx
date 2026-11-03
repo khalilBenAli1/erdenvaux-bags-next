@@ -61,10 +61,7 @@ export function DetailsStep({
       >
         A few final details.
       </h2>
-      <p className={styles.intro}>
-        Use sample details for this local demonstration. No message, purchase or
-        payment will be sent.
-      </p>
+      <p className={styles.intro}>Use sample contact and delivery details.</p>
       <form
         noValidate
         autoComplete="off"

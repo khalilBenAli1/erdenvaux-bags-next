@@ -9,10 +9,13 @@ import styles from './ProductCard.module.css';
 export function ProductCard({
   product,
   variant: chosen,
+  headingLevel = 3,
 }: {
   product: Product;
   variant?: Variant;
+  headingLevel?: 2 | 3;
 }) {
+  const Heading = headingLevel === 2 ? 'h2' : 'h3';
   const variant = chosen ?? product.variants[0]!;
   const selection = { productId: product.id, variantId: variant.id };
   const wishlist = useCommerce((state) => state.wishlist);
@@ -47,9 +50,9 @@ export function ProductCard({
         )}
       </div>
       <div className={styles.caption}>
-        <h3>
+        <Heading>
           <Link href={productHref(product.id, variant.id)}>{product.name}</Link>
-        </h3>
+        </Heading>
         <p>{formatMoney(product.priceCents)}</p>
       </div>
       <div className={styles.meta}>
