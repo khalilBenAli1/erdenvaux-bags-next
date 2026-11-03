@@ -1,0 +1,25 @@
+.quantity {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  height: 44px;
+  flex-shrink: 0;
+}
+.quantity button {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+}
+.quantity button:disabled {
+  opacity: 0.3;
+}
+.quantity output {
+  min-width: 28px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.quantity svg {
+  width: 15px;
+  height: 15px;
+}

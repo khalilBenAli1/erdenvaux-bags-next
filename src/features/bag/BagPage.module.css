@@ -1,0 +1,84 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1.65fr 1fr;
+  gap: 8vw;
+}
+.summary {
+  border-top: 1px solid var(--line);
+  padding-top: 28px;
+  align-self: start;
+  margin-top: 24px;
+  min-width: 0;
+}
+.summary h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  font-size: 0.82rem;
+  margin-bottom: 20px;
+}
+.summary .note {
+  font-size: 0.7rem;
+  line-height: 1.8;
+  color: var(--muted);
+  margin-bottom: 25px;
+}
+.empty {
+  padding-block: 35px 60px;
+  max-width: 530px;
+}
+.empty h2 {
+  font-size: 3rem;
+  margin-bottom: 22px;
+}
+.empty p {
+  font-size: 0.84rem;
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+.wishlistGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 45px 22px;
+}
+.wishLink {
+  font-size: 0.72rem;
+  margin-top: 25px;
+}
+@media (max-width: 900px) {
+  .wishlistGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 35px 18px;
+  }
+}
+@media (max-width: 700px) {
+  .layout {
+    display: block;
+  }
+  .summary {
+    margin-top: 35px;
+  }
+  .summary h2 {
+    font-size: 1.9rem;
+  }
+  .row {
+    font-size: 0.8rem;
+  }
+  .empty {
+    padding-top: 15px;
+  }
+  .empty h2 {
+    font-size: 2.4rem;
+  }
+  .empty p {
+    font-size: 0.78rem;
+  }
+  .wishlistGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px 14px;
+  }
+}
