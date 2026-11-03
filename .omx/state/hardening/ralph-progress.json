@@ -1,1 +1,30 @@
-{"score":94,"threshold":90,"threshold_pass":true,"verdict":"pass","category_match":true,"differences":[],"suggestions":[],"reasoning":"The approved composition is preserved. The defined release matrix passes: all exported HTML routes and rendered checkout/dialog states pass Axe and strict clientWidth bounds, and exact idempotent 200% critical text with maximum valid contact content remains readable without horizontal overflow.","next_actions":["Publish the verified candidate after CI and verify the public shopping flow."],"verification":{"unit_tests":48,"browser_checks":27,"contexts":["Chromium","WebKit","touch-emulated Chromium"],"widths":[320,390,768,1440],"cold_svg_title_populated":true,"hydration_errors":0}}
+{
+  "score": 94,
+  "threshold": 90,
+  "threshold_pass": true,
+  "verdict": "pass",
+  "category_match": true,
+  "differences": [],
+  "suggestions": [],
+  "reasoning": "The approved composition is preserved. The defined release matrix passes: all exported HTML routes and rendered checkout/dialog states pass Axe and strict clientWidth bounds, and exact idempotent 200% critical text with maximum valid contact content remains readable without horizontal overflow.",
+  "next_actions": [],
+  "verification": {
+    "unit_tests": 48,
+    "browser_checks": 27,
+    "contexts": [
+      "Chromium",
+      "WebKit",
+      "touch-emulated Chromium"
+    ],
+    "widths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "cold_svg_title_populated": true,
+    "hydration_errors": 0
+  },
+  "completed": true,
+  "completed_at": "2026-11-03T06:31:19.133904+00:00"
+}
