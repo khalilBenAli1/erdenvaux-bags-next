@@ -78,7 +78,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
               Erden Vaux
             </Link>
             <p className={styles.footerTag}>
-              Considered forms.
+              Leather, folds and clean lines.
               <br />
               Objects worth carrying.
             </p>

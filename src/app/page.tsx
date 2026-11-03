@@ -58,7 +58,7 @@ export default function Home() {
             </Link>
             <p>
               Sculptural lines. Tactile surfaces.
-              <br />A collection made for your everyday.
+              <br />A collection shaped around your day.
             </p>
             <Link
               href="/collection/"
@@ -70,9 +70,9 @@ export default function Home() {
         </div>
         <div className={styles.bridge}>
           <p>
-            Considered objects.
+            Leather, folds
             <br />
-            Room for your own rhythm.
+            and clean lines.
           </p>
           <p>
             Eight silhouettes.
@@ -84,8 +84,8 @@ export default function Home() {
       <section className={`wrap ${styles.edit}`} aria-labelledby="edit-title">
         <div className={styles.sectionHeading}>
           <div>
-            <p className="eyebrow">The considered edit</p>
-            <h2 id="edit-title">Forms for the everyday.</h2>
+            <p className="eyebrow">The silhouettes</p>
+            <h2 id="edit-title">A line of its own.</h2>
           </div>
           <Link className={`text-link ${styles.textLink}`} href="/collection/">
             View all pieces <Icon name="arrow" />

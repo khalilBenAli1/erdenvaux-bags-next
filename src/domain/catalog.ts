@@ -27,6 +27,12 @@ export function resolveLines(
     const product = getProduct(line.productId);
     const variant = getVariant(line.productId, line.variantId);
     if (!product || !variant) throw new Error('Unknown selection in bag');
+    if (
+      !Number.isSafeInteger(line.quantity) ||
+      line.quantity < 1 ||
+      line.quantity > variant.stock
+    )
+      throw new Error('Invalid quantity in bag');
     return {
       key: selectionKey(line),
       product,
